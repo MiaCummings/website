@@ -5,19 +5,8 @@
   <meta charset="utf-8">
   <title>Webville Tunes</title>
   <script src="playlist.js"></script>
+  <script src="playlist_store.js"></script>
   <link rel = "stylesheet" href="playlist.css">
-
-<script>
-function init() {
-  var loc = window.location.href;
-  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
-                        loc + '?profile=css3';
-  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-}
-window.onload = init;
-</script>
 
 </head>
 
@@ -31,11 +20,10 @@ window.onload = init;
         
     </ul>
 
-
 <footer>
-<a id="vLink1"><strong> HTML </strong> Valid! </a> |
-<a id="vLink2"><strong> CSS </strong> Valid! </a>
+<a id="vLink1"><strong> links </strong> didn't work </a> 
 </footer>
+
 </body>
 
 </html>
