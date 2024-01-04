@@ -5,7 +5,20 @@
 <title>Assignments</title>
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Montserrat:wght@700&family=Thasadith&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Thasadith&display=swap">
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
 
 </head>
 <body>
@@ -19,16 +32,19 @@
     </ul>
 </nav>
 
-<h1>Assignments</h1>
+<h1>ASSIGNMENTS</h1>
 
-<ul>
-    <li> <a href="HeadFirstLounge/lounge.html">Head First Lounge</a> </li>
-    <li> <a href="StarbuzzCoffee/starbuzz.html">Starbuzz Coffee</a> </li>
-    <li> <a href="JavaScript/webville.html">Webville</a> </li>
-    <li> <a href="WebvilleTunes/WebvilleTunes.html">Webville Tunes</a> </li>
-    <li> <a href="WebvilleCinema/webvillecinema.html">Webville Cinema</a> </li>
-</ul>
+    <a href="HeadFirstLounge/lounge.html" class="square-button" >Head First Lounge</a>
+    <a href="StarbuzzCoffee/starbuzz.html" class="square-button" >Starbuzz Coffee</a> 
+    <a href="JavaScript/webville.html" class="square-button" >Webville</a> 
+    <a href="WebvilleTunes/WebvilleTunes.html" class="square-button" >Webville Tunes</a> 
+    <a href="WebvilleCinema/webvillecinema.html" class="square-button" >Webville Cinema</a> 
 
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
 
 </body>
 </html>
