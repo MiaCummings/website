@@ -7,7 +7,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right 0 bottom -60px;
+    background-position: right 0 bottom 9px;
 }
 
 #assign {
@@ -215,7 +215,7 @@ footer {
 
 #title {
     position: absolute;
-    top: 200px;
+    top: 240px;
     right: 50%;
     transform: translateX(50%);
     text-align: center;
@@ -227,7 +227,7 @@ footer {
 
 
     border: 2px solid #ffffff;
-    padding: 50px;
+    padding: 40px;
     width: 900px;
 
     opacity: 0; 
