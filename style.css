@@ -10,6 +10,24 @@ body {
     background-position: right 0 bottom -60px;
 }
 
+#assign {
+    background-image: url('htmlbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom -60px;
+}
+
+#about {
+    background-image: url('classesback.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
 h1 {
     text-align: center;
     padding: 200px;
@@ -18,6 +36,8 @@ h1 {
     font-family: 'Libre Franklin';
     letter-spacing: 7px;
     text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 
 }
 
@@ -29,6 +49,8 @@ h2 {
     font-family: 'Thasadith';
     letter-spacing: 4px;
     text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 }
 
 nav {
@@ -206,8 +228,18 @@ footer {
 
     border: 2px solid #ffffff;
     padding: 50px;
-    width: 900px
+    width: 900px;
+
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 }
 
-
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
