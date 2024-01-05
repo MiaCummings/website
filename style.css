@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('blackback.jpeg'); 
+    background-image: url('ramenbowl.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right 0 bottom -60px;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
     color: rgb(255, 255, 255);
     font-family: 'Libre Franklin';
     letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
 
 }
 
@@ -26,13 +28,14 @@ h2 {
     font-size: 20px;
     font-family: 'Thasadith';
     letter-spacing: 4px;
+    text-shadow: 2px 2px 4px #333;
 }
 
 nav {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 30px;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: left;
     font-family: 'Thasadith';
 }
 
@@ -56,21 +59,21 @@ nav a {
 footer {
     text-align: center;
     background-color: #f2f2f2;
+    text-decoration: none;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-family: 'Thasadith';
-    letter-spacing: 7px;
-    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 
 .square-button {
     display: inline-block;
-    width: 100px;
+    width: 230px;
     height: 100px;
     background-color: white;
     color: rgb(0, 0, 0);
@@ -80,6 +83,131 @@ footer {
 
 }
 
+.button1 {
+    position: absolute;
+    top: 800px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button2 {
+    position: absolute;
+    top: 800px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button3 {
+    position: absolute;
+    top: 800px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button4 {
+    position: absolute;
+    top: 1000px;
+    right: 34%;
+    transform: translateX(20%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button5 {
+    position: absolute;
+    top: 1000px;
+    right: 58%;
+    transform: translateX(40%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button6 {
+    position: absolute;
+    top: 1000px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button7 {
+    position: absolute;
+    top: 1000px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button8 {
+    position: absolute;
+    top: 1000px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button9 {
+    position: absolute;
+    top: 1200px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+#title {
+    position: absolute;
+    top: 200px;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+
+
+    border: 2px solid #ffffff;
+    padding: 50px;
+    width: 900px
+}
 
 
 
