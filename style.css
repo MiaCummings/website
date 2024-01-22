@@ -144,8 +144,8 @@ footer {
 .button4 {
     position: absolute;
     top: 1000px;
-    right: 34%;
-    transform: translateX(20%);
+    right: 50%;
+    transform: translateX(50%);
     font-family: 'Thasadith';
     font-size: 20px;
     letter-spacing: 2px;
@@ -156,8 +156,8 @@ footer {
 .button5 {
     position: absolute;
     top: 1000px;
-    right: 58%;
-    transform: translateX(40%);
+    right: 75%;
+    transform: translateX(75%);
     font-family: 'Thasadith';
     font-size: 20px;
     letter-spacing: 2px;
@@ -211,6 +211,18 @@ footer {
     letter-spacing: 2px;
 
     
+}
+
+.button10 {
+    position: absolute;
+    top: 1000px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
 }
 
 #title {

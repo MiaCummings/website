@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: orange;
+    font-family: "Thasadith";
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: "Thasadith";
+}
+
+.football {
+    width: 200px; 
+    padding: 8px; 
+    margin-bottom: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+
+
