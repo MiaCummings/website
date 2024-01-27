@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('ramenbowl.jpg'); 
+    background-image: url('Web Photos/ramenbowl.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 }
 
 #assign {
-    background-image: url('htmlbackground.jpg'); 
+    background-image: url('Web Photos/htmlbackground.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,16 @@ body {
 }
 
 #about {
-    background-image: url('classesback.jpg'); 
+    background-image: url('Web Photos/classesback.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+#theatre {
+    background-image: url('Web Photos/theatre.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,3 +264,9 @@ footer {
     }
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
