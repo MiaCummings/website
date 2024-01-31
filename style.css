@@ -37,6 +37,24 @@ body {
     background-position: right 0 bottom 60px;
 }
 
+#theatre {
+    background-image: url('Web Photos/theatre.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+#designs {
+    background-image: url('Web Photos/blackbackground.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
 h1 {
     text-align: center;
     padding: 200px;
