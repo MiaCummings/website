@@ -282,9 +282,9 @@ footer {
     }
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.images {
+    display: inline-block;
     gap: 16px;
     padding: 16px;
+    height: 360px;
 }
