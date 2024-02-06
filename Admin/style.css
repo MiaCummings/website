@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('Web Photos/ramenbowl.jpg'); 
+    background-image: url('../Web Photos/ramenbowl.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 }
 
 #assign {
-    background-image: url('Web Photos/htmlbackground.jpg'); 
+    background-image: url('../Web Photos/htmlbackground.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 #about {
-    background-image: url('Web Photos/classesback.jpg'); 
+    background-image: url('../Web Photos/classesback.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 }
 
 #theatre {
-    background-image: url('Web Photos/theatre.jpg'); 
+    background-image: url('../Web Photos/theatre.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body {
 }
 
 #theatre {
-    background-image: url('Web Photos/theatre.jpg'); 
+    background-image: url('../Web Photos/theatre.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
 }
 
 #designs {
-    background-image: url('Web Photos/blackbackground.jpeg'); 
+    background-image: url('../Web Photos/blackbackground.jpeg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,6 +245,18 @@ footer {
     top: 1000px;
     right: 25%;
     transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button11 {
+    position: absolute;
+    top: 1200px;
+    right: 75%;
+    transform: translateX(75%);
     font-family: 'Thasadith';
     font-size: 20px;
     letter-spacing: 2px;
