@@ -11,7 +11,7 @@ body {
 }
 
 #assign {
-    background-image: url('htmlbackground.jpg'); 
+    background-image: url('assignments/htmlbackground.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 #about {
-    background-image: url('classesback.jpg'); 
+    background-image: url('classes/classesback.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 }
 
 #theatre {
-    background-image: url('theatre.jpg'); 
+    background-image: url('theatre/theatre.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,17 +37,9 @@ body {
     background-position: right 0 bottom 60px;
 }
 
-#theatre {
-    background-image: url('theatre.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 0 bottom 60px;
-}
 
 #designs {
-    background-image: url('blackbackground.jpeg'); 
+    background-image: url('designs/blackbackground.jpeg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
