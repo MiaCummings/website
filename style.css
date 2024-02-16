@@ -256,6 +256,18 @@ footer {
 
 }
 
+.button12 {
+    position: absolute;
+    top: 1200px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
 #title {
     position: absolute;
     top: 240px;
