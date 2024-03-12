@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url('htmlbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#assign {
+    background-image: url('assignments/htmlbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 10px;
+}
+
+#about {
+    background-image: url('classes/classesback.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+#theatre {
+    background-image: url('theatre/theatre.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+
+#designs {
+    background-image: url('designs/blackbackground.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+h1 {
+    text-align: center;
+    padding: 200px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 340px;
+    font-size: 20px;
+    font-family: 'Thasadith';
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Thasadith';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Thasadith';
+    letter-spacing: 2px;
+}
+
+#title {
+    position: absolute;
+    top: 70px;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+    white-space: nowrap;
+
+
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
