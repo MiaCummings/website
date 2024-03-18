@@ -7,6 +7,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: -1;
+}
+
+.content {
+    background-color: white;
+    padding: 200px;
+    margin: 20px
 }
 
 #assign {
@@ -72,7 +79,7 @@ h2 {
 }
 
 nav {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 30px;
     letter-spacing: 2px;
     text-align: left;
