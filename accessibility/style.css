@@ -74,6 +74,24 @@ footer {
     letter-spacing: 2px;
 }
 
+#button {
+    position: absolute;
+    top: 480px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 190px;
+    height: 70px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+}
+
 #title {
     position: absolute;
     top: 70px;
