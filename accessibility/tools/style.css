@@ -36,6 +36,16 @@ p {
     letter-spacing: 1px;
 }
 
+#list {
+    color: hsl(0, 0%, 0%);
+    padding-left: 250px;
+    padding-right: 200px;
+    display: inline-block;
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Thasadith';
+    letter-spacing: 1px;
+}
 
 #disable {
     color: hsl(0, 0%, 0%);
