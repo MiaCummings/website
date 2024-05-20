@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('ramenbowl.jpg'); 
-    background-size: cover;
+    background-image: url('images/background.png'); 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right 0 bottom -60px;
+    background-position: right 40px bottom -60px;
 }
 
 #assign {
@@ -75,8 +75,8 @@ h2 {
 nav {
     background-color: #f2f2f2;
     padding: 30px;
-    letter-spacing: 2px;
-    text-align: left;
+    letter-spacing: 6px;
+    text-align: center;
     font-family: 'Thasadith';
 }
 
