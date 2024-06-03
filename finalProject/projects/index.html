@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+<meta charset="utf-8">
+
+<title>WEBSITE ACCESSIBILITY</title>
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+</script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Montserrat:wght@700&family=Thasadith&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Thasadith&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap">
+
+</head>
+
+    
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../about/index.html">ABOUT ME</a></li>
+            <li><a href="../designs/index.html">DESIGNS</a></li>
+            <li><a href="index.html">PROJECTS</a></li>
+        </ul>
+    </nav>
+
+    
+<h1>CURRENT PROJECTS</h1>
+
+<p>There are numerous testing tools that you can use
+    to evaluate the accessibility of your website.
+</p>
+
+<h2 style="text-align: left; padding-left: 200px;">1. Ramen Book</h2>
+
+<p>By putting in your site URL, WAVE provides you with a
+    visual representation of the portions of your
+    website that could use improvement. WAVE will highlight 
+    the sections of your website that fail to meet the WCAG
+    standards
+</p>
+
+<img src="images/ABowlofRamen.png" width="1000" height="740" style="padding-left: 200px; margin: 20px">
+
+<img src="images/FindingBowl.png" width="1000" height="740" style="padding-left: 200px; margin: 20px">
+
+<img src="images/scallions.png" width="1000" height="740" style="padding-left: 200px; margin: 20px">
+
+<img src="images/egg.png" width="1000" height="740" style="padding-left: 200px; margin: 20px">
+
+<img src="images/table.png" width="1000" height="740" style="padding-left: 200px; margin: 20px">
+
+
+
+<h2 style="text-align: left; padding-left: 200px;">2. Board Game: Pidgin Told</h2>
+
+<p>By putting in your site URL, WAVE provides you with a
+    visual representation of the portions of your
+    website that could use improvement. WAVE will highlight 
+    the sections of your website that fail to meet the WCAG
+    standards
+</p>
+
+<img src="images/gamebox.png" width="740" height="740" style="display:block; margin: 0 auto; padding: 10px">
+
+<img src="images/gameboard.png" width="740" height="740" style="display:block; margin: 0 auto; padding: 10px">
+
+
+<div style="height: 100px;"></div>
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
