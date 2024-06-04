@@ -40,11 +40,19 @@
     
 <h1>MIA CUMMINGS</h1>
 <h2>Graphic Design Portfolio</h2>
+<button id="toggleMode">Dark Mode</button>
 
 <footer>
     <a id="vLink1"><strong> HTML </strong> Valid! </a> 
     <a id="vLink2"><strong> CSS </strong> Valid! </a>
 </footer>
+
+<script>
+    document.getElementById("toggleMode").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    });
+    
+ </script>
 
 </body>
 </html>

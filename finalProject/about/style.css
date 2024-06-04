@@ -24,6 +24,44 @@ h2 {
     
 }
 
+body.dark-mode {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #ffffff;
+}
+
+.dark-mode h1 {
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Playfair Display';
+    letter-spacing: 5px;
+    font-size: 40px;
+    padding-top: 30px
+    
+}
+
+.dark-mode h2 {
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Playfair Display';
+    letter-spacing: 5px;
+    font-size: 25px;
+    
+}
+
+.dark-mode p {
+    color: hsl(0, 0%, 0%);
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Thasadith';
+    letter-spacing: 1px;
+}
+
+
 
 p {
     color: hsl(0, 0%, 0%);
@@ -85,4 +123,22 @@ footer {
     width: 100%;
     font-family: 'Thasadith';
     letter-spacing: 2px;
+}
+
+button {
+    position: absolute;
+    top: 100px;
+    right: 98%;
+    transform: translateX(98%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 170px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
 }
